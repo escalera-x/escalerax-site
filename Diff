@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EscaleraX - Performance Scaling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #111;
+    }
+    .hero {
+      background: linear-gradient(to right, #2563EB, #4F46E5);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero img {
+      max-height: 80px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .cta-button {
+      background: white;
+      color: #4F46E5;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: disc;
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      padding-left: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #4F46E5;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="https://raw.githubusercontent.com/escalera-x/escalerax-site/main/EscaleraX_Logo.png" alt="EscaleraX Logo" />
+    <h1>Only Pay When You Scale</h1>
+    <p>Performance-Based Brand Systems: Ads, Funnels, Automation & AI — all built to profit.</p>
+    <a href="https://calendly.com/edgar-guerrero-escalerax" class="cta-button">Book a Free Scaling Audit</a>
+  </div>
+
+  <section>
+    <h2>The Problem</h2>
+    <ul>
+      <li>Brands overspend on agencies that don’t deliver ROI.</li>
+      <li>Funnels break down, leaving leads cold.</li>
+      <li>Founders wear too many hats and can’t scale efficiently.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The EscaleraX Solution</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>1. Small Setup Fee</h3>
+        <p>Get onboarded and systems built without huge retainers.</p>
+      </div>
+      <div class="card">
+        <h3>2. Shared Profit Model</h3>
+        <p>You only pay a % of the profits we help generate. No results = no payout.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What You Get</h2>
+    <div class="grid">
+      <div class="card">
+        <h4>📈 Paid Ads</h4>
+        <p>Meta, Google, TikTok campaigns that convert cold traffic.</p>
+      </div>
+      <div class="card">
+        <h4>🤖 Funnels + Automation</h4>
+        <p>Optimized flows to convert and nurture leads automatically.</p>
+      </div>
+      <div class="card">
+        <h4>📬 Email + SMS</h4>
+        <p>Automated campaigns that bring customers back again and again.</p>
+      </div>
+      <div class="card">
+        <h4>💰 Monetization Strategy</h4>
+        <p>We build a system that actually turns traffic into profit.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Let’s Scale Together</h2>
+    <p>Ready to grow? Book a free call and let’s map your scale system.</p>
+    <a href="https://calendly.com/edgar-guerrero-escalerax" class="cta-button">Book My Free Audit</a>
+  </footer>
+
+</body>
+</html>
