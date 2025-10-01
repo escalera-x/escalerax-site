@@ -1,0 +1,1 @@
+console.log("EscaleraX site is live!");
